@@ -1,0 +1,9 @@
+# ninja log v5
+1	56	7170293178278565	build.ninja	91b61d4826921880
+1	400	7170290358501149	CMakeFiles/holajupiter.dir/main.cpp.obj	84e63a8c054f73dd
+0	361	7170290787258800	CMakeFiles/holajupiter.dir/holajupiter.cpp.obj	6f4bd9b5d87388c8
+362	583	7170290788948040	holajupiter.exe	86b606bdffb47e20
+0	680	7170304122459005	CMakeFiles/holajupiter.dir/holajupiter.cpp.obj	6f4bd9b5d87388c8
+680	962	7170304124786172	holajupiter.exe	86b606bdffb47e20
+1	383	7170304533405679	CMakeFiles/holajupiter.dir/holajupiter.cpp.obj	6f4bd9b5d87388c8
+383	1529	7170304544287822	holajupiter.exe	86b606bdffb47e20
