@@ -8,7 +8,7 @@
 
 int main() {
     // Define the gravity vector
-    b2Vec2 gravity(0.0f, -24.79f);
+    b2Vec2 gravity(0.0f, -1.62f);
 
     // Construct a world object, which will hold and simulate the rigid bodies
     b2World world(gravity);
@@ -21,7 +21,7 @@ int main() {
 
     // Define another box shape for the bullet
     b2PolygonShape dynamicBox;
-    dynamicBox.SetAsBox(0.2f, 0.05f);
+    dynamicBox.SetAsBox(0.05f, 0.01f);
 
     // Define the dynamic body fixture
     b2FixtureDef fixtureDef;
@@ -33,8 +33,8 @@ int main() {
     body->CreateFixture(&fixtureDef);
 
     // Set the initial velocity of the bullet
-    float angle = 45.0f; // Angle in degrees
-    float speed = 400.0f; // Speed in m/s
+    float angle = 60.0f; // Angle in degrees
+    float speed = 900.0f; // Speed in m/s
     float vx = speed * std::cos(angle * M_PI / 180.0f);
     float vy = speed * std::sin(angle * M_PI / 180.0f);
 
